@@ -1,0 +1,14 @@
+[general]
+name=Export Land Use
+qgisMinimumVersion=3.22
+description=Land Use Plan layer to Excel database and PowerPoint tables/charts, with live preview.
+about=Opens a resizable window that previews the land-use summary slides and Excel tables for the chosen polygon layer (following selection and edits), and exports them to .xlsx (raw Source table + pivot tables, colour coded) and .pptx. Colours come from the layer symbology, the ATR-BPN RDTR colour code library or the project palette, and can be written back to the layer style. Also adds a Processing tool (Land Use Plan > Export Land Use). Excel pivot tables need Microsoft Excel on Windows.
+version=1.3
+hasProcessingProvider=yes
+changelog=1.3: author Adisunu Alui. 1.2: renamed from LUP Tables to Export Land Use. 1.1: self-contained zip (calculations, colour library, python-pptx and comtypes bundled); adds the Processing tool; colour coding synced between layer symbology, Excel and slides; Excel summary sheets as pivot tables.
+author=Adisunu Alui
+email=none@example.invalid
+category=Vector
+icon=icon.svg
+experimental=False
+deprecated=False

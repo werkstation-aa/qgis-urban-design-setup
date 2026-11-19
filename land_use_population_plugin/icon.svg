@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Land Use Population: land-use parcels -> people count -->
+  <rect x="2" y="4" width="11" height="11" rx="1" fill="#FFEF82" stroke="#333" stroke-width="1.2"/>
+  <rect x="2" y="17" width="11" height="11" rx="1" fill="#ADDDF7" stroke="#333" stroke-width="1.2"/>
+  <rect x="15" y="4" width="15" height="24" rx="1.2" fill="#FFFFFF" stroke="#333" stroke-width="1.2"/>
+  <circle cx="22.5" cy="11.5" r="3.6" fill="#7C187C"/>
+  <path d="M16.8 24.5 a5.7 5.7 0 0 1 11.4 0 z" fill="#7C187C"/>
+</svg>

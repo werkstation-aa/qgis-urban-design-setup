@@ -1,0 +1,4 @@
+pyshp>=2.3
+openpyxl>=3.1
+python-pptx>=1.0
+comtypes>=1.4  # Excel pivot tables (Windows + Microsoft Excel); without it, formula sheets are written

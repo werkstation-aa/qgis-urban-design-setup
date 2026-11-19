@@ -1,0 +1,24 @@
+# Build output
+dist/
+__pycache__/
+*.pyc
+
+# Project / client data and sample outputs: never published
+Output/
+Shapefile/
+Master LUP.xlsx
+Sample Table Output.pptx
+
+# Superseded script versions (the plugin uses qgis_project_setup_r2.py)
+qgis_project_setup.py
+qgis_project_setup R1.py
+
+# Local Windows installers / launchers for the standalone tools
+*.bat
+
+# Design notes and previews, not part of the plugin
+automation_pack/icons_preview.png
+automation_pack/icons/ICON_BRIEF.md
+
+# Office lock files
+~$*

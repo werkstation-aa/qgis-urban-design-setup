@@ -1,0 +1,13 @@
+[general]
+name=Land Use Population
+qgisMinimumVersion=3.22
+description=Calculate resident and daytime (worker / visitor) population of a land-use plan from verified Indonesian planning standards.
+about=Assigns a population assumption to every land-use class of a polygon layer (density jiwa/ha, lots or units x occupancy, GFA per person, employment rate per GFA, hotel keys), with a live preview window where each assumption can be changed. Outputs a temporary layer with Pop_Resi / Pop_Visit / Pop_Total and the assumption used per parcel, and an Excel workbook with the updated land-use table and the assumption sheet (optional SNI 03-1733-2004 facility-needs sheet). Reference library compiled from published standards only - SNI 03-1733-2004, Permen PU 26/PRT/M/2008 Tabel 3.10.1.2, Kepmen Kimpraswil 403/KPTS/M/2002, Permenpera 11/2008 and the HCA Employment Density Guide 2015; every value carries its source and verification status.
+version=1.1
+changelog=1.1: PowerPoint assumption table (Population Assumption template, continues on extra slides when long); Excel 'Assumption Summary' sheet in the same compact layout; one Create outputs button with output checkboxes. 1.0: first release.
+author=Adisunu Alui
+email=none@example.invalid
+category=Vector
+icon=icon.svg
+experimental=False
+deprecated=False

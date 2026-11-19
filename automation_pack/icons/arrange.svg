@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Project Arrange: layer tree sorted points / lines / polygons -->
+  <rect x="2" y="3" width="20" height="26" rx="1.5" fill="#FFFFFF" stroke="#333" stroke-width="1.2"/>
+  <circle cx="7" cy="9" r="2.3" fill="#E15759" stroke="#333" stroke-width="0.8"/>
+  <path d="M4.5 17.6 L6.6 14.4 L8.4 17 L10 14.4" fill="none" stroke="#4E79A7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="4.6" y="20.6" width="4.8" height="4.8" fill="#59A14F" stroke="#333" stroke-width="0.8"/>
+  <path d="M12 9 H19.5 M12.5 16 H19.5 M12 23 H19.5" stroke="#9A9A9A" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M23.6 25.5 C30.5 25.5 30.5 10 26.2 9" fill="none" stroke="#F28E2B" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M27.2 5.4 L22.6 9 L27.6 12 Z" fill="#F28E2B" stroke="#F28E2B" stroke-width="0.8" stroke-linejoin="round"/>
+</svg>

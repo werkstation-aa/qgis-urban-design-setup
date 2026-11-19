@@ -1,0 +1,14 @@
+[general]
+name=Vector Pivot Export
+qgisMinimumVersion=3.22
+description=Export any vector layer to Excel with a ready-made pivot table coloured by the layer symbology.
+about=Writes an .xlsx workbook with a Pivot sheet (row / column / value fields of your choice, sum / average / min / max / count, optional area or length and % of total), the attribute table as an Excel table and a colour legend. Row and column labels are coloured like the layer's symbology (categorised, graduated, rule-based or single symbol). With Microsoft Excel installed on Windows the Pivot sheet is a real, refreshable pivot table; otherwise a static table with the same layout. Open it from the toolbar, Vector menu, a layer's right-click menu or the Processing Toolbox.
+version=1.2
+hasProcessingProvider=yes
+changelog=1.2: preview window - live, colour-coded pivot of the layer (follows selection, edits and style), colour legend and source table, export from the window; the Processing tool stays in the Toolbox. 1.1: author Adisunu Alui; new icon; Excel pivot no longer fails when the layer has a field differing only in case (e.g. Area_Ha); single-symbol layers labelled with the layer name. 1.0: first release.
+author=Adisunu Alui
+email=none@example.invalid
+category=Vector
+icon=icon.svg
+experimental=False
+deprecated=False

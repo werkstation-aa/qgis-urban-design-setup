@@ -1,0 +1,17 @@
+[general]
+name=Urban Design Setup
+qgisMinimumVersion=3.22
+description=Project setup, project arrange, layout automation, Export Land Use, vector pivot export and land use population in one plugin.
+about=Urban design project tools in one plugin, under the Urban Design Setup menu and toolbar: Project Setup (layer tree, basemaps, live Indonesian datasets, OSM roads, styles), Project Arrange (sort loaded layers into the setup tree), Layout Automation (spatial bookmark x map themes to print layout pages and 300 dpi images), Export Land Use (land use plan to Excel pivots and PowerPoint tables / charts), Vector Pivot Export (any vector layer to an Excel pivot coloured by its symbology) and Land Use Population (resident / visitor / worker population per parcel from standards crosschecked against SNI 03-1733-2004 and Permen PU 26/2008, with an assumption preview window, a temporary population layer, an Excel workbook and a PowerPoint assumption table). Export Land Use and Vector Pivot Export are also in the Processing Toolbox under Urban Design Setup. Excel pivot tables need Microsoft Excel on Windows; the other outputs work on every platform. The plugin ships its own copies of python-pptx, XlsxWriter, typing_extensions and comtypes (in vendor/), PowerPoint / Excel templates used as report starting points (data/, population/) and QML layer styles (scripts/styles/). Uninstall the separate Export Land Use / Vector Pivot Export / Land Use Population plugins to avoid duplicate menus.
+version=1.4.1
+hasProcessingProvider=yes
+changelog=1.4.1: QML styles shipped as plain .qml files (scripts/styles) instead of compressed text inside the setup script; setup script renamed qgis_project_setup_r2.py; output files open on Linux / macOS too; LICENSE added; unused vendor test / server files removed. 1.4: new tool Land Use Population - assumption preview per land-use class, temporary population layer, Excel (Land Use, Assumption Summary, Population Assumptions, optional SNI facility needs) and PowerPoint assumption table; also on the layer right-click menu. 1.3: every tool opens its own window, nothing runs in the Python Console - Project Setup window (layer tree preview with dataset checkboxes, boundary choice, run log), Project Arrange window (preview of planned moves and styles, options, run log), Layout Automation opens its dialog directly; Export Pivot window with live colour-coded pivot preview, colour legend and source table. 1.2: pack renamed from QGIS Automation Pack to Urban Design Setup (menu, toolbar and Processing group too). 1.1: LUP Tables renamed to Export Land Use; own icon per tool. 1.0: first pack - Project Setup R2, Project Arrange, Layout Automation, Export Land Use 1.1, Vector Pivot Export 1.0.
+tags=urban design,land use,population,layout,print layout,excel,powerpoint,pivot,styles,indonesia,processing
+author=Adisunu Alui
+email=REPLACE_ME_EMAIL
+homepage=REPLACE_ME_REPOSITORY_URL
+tracker=REPLACE_ME_REPOSITORY_URL/issues
+repository=REPLACE_ME_REPOSITORY_URL
+icon=icons/pack.svg
+experimental=False
+deprecated=False
